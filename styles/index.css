@@ -1,0 +1,41 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div_holder {
+    width: 500px;
+    height: 300px;
+    border: 10px solid black;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: myAnimation 10s linear 0s 1 normal , myAnimation2 2.5s linear 0s 4 , myAnimation3 10s linear 0s 1 normal forwards;                  
+  }
+  @keyframes myAnimation {
+    0% { top: 0px; left: 0px;}
+    25% {top: 100%; left: 100%;} 
+    50% { top: 100%; left: 0%; }
+    75% {top: 0%; left: 100%;}      
+    100% { top: 0px; left: 0px; }
+  }
+
+  @keyframes myAnimation2{
+    0% { transform: rotate(0)}
+    25% { transform: rotate(90deg);}
+    50%{ transform: rotate(90deg);}
+    75%{ transform: rotate(90deg);}
+    100% { transform: rotate(90deg);}
+  }
+  
+  @keyframes myAnimation3{
+    0% {background-color: black;}
+    25% {background-color: white; }
+    50%{background-color: green; }
+    75%{background-color: blue; }
+    100% {background-color: yellow; }
+  }
+
+  */
